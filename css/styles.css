@@ -566,8 +566,10 @@ p {
     margin-top: 30px;
 }
 
-.portfolio-card:hover,
-.portfolio-card:focus {
+.card-link:hover,
+.card-link:focus {
+    display: block;
+    
     border-width: 1px;
     border-style: solid;
     border-color: var(--border-card-color);
