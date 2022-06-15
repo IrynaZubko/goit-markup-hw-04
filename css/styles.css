@@ -283,13 +283,12 @@ p {
 .peculiarities-item > .icon {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
 
     background-color: var(--bg-icon-color);
-}
-
-.peculiarities-icon {
-    margin: 25px 100px;
 }
 
 .peculiarities-title {
@@ -408,7 +407,10 @@ p {
 
 .costumers-link {
     display: inline-flex;
-    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
 
     border-width: 1px;
     border-style: solid;
